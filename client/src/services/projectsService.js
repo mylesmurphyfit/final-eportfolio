@@ -5,6 +5,7 @@ import api from './api'
  */
 async function getProjects() {
   const response = await api.get('/api/projects')
+  console.log(response)
   return response.data
 }
 
