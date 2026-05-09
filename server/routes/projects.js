@@ -9,7 +9,7 @@ const router = express.Router();
 router.get('/api/projects', async (req, res) => {
   try {
     const projects = await projectController.getProjects();
-    res.json({ projects });
+    res.json({ data: projects });
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
@@ -26,7 +26,7 @@ router.get('/api/projects/:id', async (req, res) => {
       return res.status(404).json({ message: 'Project not found' });
     }
 
-    res.json({ project });
+    res.json({ data: project });
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
@@ -38,7 +38,7 @@ router.get('/api/projects/:id', async (req, res) => {
 router.post('/api/projects', async (req, res) => {
   try {
     const project = await projectController.createProject(req.body);
-    res.status(201).json(project);
+    res.status(201).json({ data: project });
   } catch (error) {
     res.status(400).json({ message: error.message });
   }
@@ -58,7 +58,7 @@ router.put('/api/projects/:id', async (req, res) => {
       return res.status(404).json({ message: 'Project not found' });
     }
 
-    res.json(project);
+    res.json({ data: project });
   } catch (error) {
     res.status(400).json({ message: error.message });
   }
@@ -75,7 +75,7 @@ router.delete('/api/projects/:id', async (req, res) => {
       return res.status(404).json({ message: 'Project not found' });
     }
 
-    res.json({ message: 'Project deleted successfully' });
+    res.json({ data: { message: 'Project deleted successfully' } });
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
