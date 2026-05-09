@@ -1,5 +1,6 @@
 const {defineConfig} = require('jest');
 
 module.exports = defineConfig({
-  preset: "@shelf/jest-mongodb"
+  preset: '@shelf/jest-mongodb',
+  watchPathIgnorePatterns: ['globalConfig.json'],
 });
