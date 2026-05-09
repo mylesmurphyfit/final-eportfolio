@@ -9,7 +9,7 @@ const router = express.Router();
 router.get('/api/projects', async (req, res) => {
   try {
     const projects = await projectController.getProjects();
-    res.json(projects);
+    res.json({ projects });
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
@@ -26,7 +26,7 @@ router.get('/api/projects/:id', async (req, res) => {
       return res.status(404).json({ message: 'Project not found' });
     }
 
-    res.json(project);
+    res.json({ project });
   } catch (error) {
     res.status(500).json({ message: error.message });
   }

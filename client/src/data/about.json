@@ -4,7 +4,7 @@
     "Before joining Disney, I worked in roles that gave me experience with event-driven systems, REST and GraphQL APIs, serverless architecture, responsive frontend work, and testing. I have used JavaScript, TypeScript, Python, Angular, React, Node.js, SQL, and AWS across several professional projects. I also enjoy contributing to open source, including my Prettify TypeScript extension and contributions to GraphiQL.",
     "I earned a Bachelor of Arts from St. Olaf College in Computer Science and Japanese, with a concentration in Linguistics, and I am currently pursuing a Master of Science in Computer Information Systems at Florida Institute of Technology."
   ],
-  "headshot": "http://localhost:3000/public/profile.jpeg",
+  "headshot": "https://final-eportfolio-server.vercel.app/public/profile.jpeg",
   "links": [
     {
       "name": "GitHub Profile",
