@@ -1,0 +1,171 @@
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  align-items: start;
+}
+
+.cards-grid-about {
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.card {
+  border: 1px solid #c5b294;
+  background-color: #fcfaf5;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(25, 25, 25, 0.08);
+  overflow: hidden;
+}
+
+.card-header,
+.card-body,
+.card-footer {
+  padding: 14px;
+}
+
+.card-header {
+  background-color: #e7dcc7;
+  border-bottom: 1px solid #e6d8bf;
+}
+
+.card-footer {
+  border-top: 1px solid #e6d8bf;
+}
+
+.card-title {
+  margin: 0;
+}
+
+.card-subtitle,
+.card-meta {
+  margin: 6px 0 0 0;
+  color: #5d6a57;
+}
+
+.card-media {
+  margin: 0;
+}
+
+.card-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 0;
+}
+
+.card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.card-link-list {
+  margin: 12px 0 0 0;
+  padding-left: 18px;
+}
+
+.ui-button {
+  border: 1px solid #b89567;
+  border-radius: 6px;
+  background-color: #d7bc90;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.ui-button:hover {
+  background-color: #e6d0ac;
+}
+
+.ui-badge,
+.ui-tag {
+  display: inline-block;
+  border: 1px solid #b89567;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 0.875rem;
+}
+
+.ui-badge {
+  background-color: #e7dcc7;
+}
+
+.ui-tag {
+  background-color: #f3ead8;
+}
+
+body.dark-mode .card {
+  border-color: #5f6d63;
+  background-color: #232d27;
+}
+
+body.dark-mode .card-header,
+body.dark-mode .card-footer {
+  border-color: #5f6d63;
+}
+
+body.dark-mode .card-header {
+  background-color: #2f3a34;
+}
+
+body.dark-mode .card-subtitle,
+body.dark-mode .card-meta {
+  color: #d7dacd;
+}
+
+body.dark-mode .ui-button {
+  background-color: #446652;
+  border-color: #89a892;
+  color: white;
+}
+
+body.dark-mode .ui-button:hover {
+  background-color: #5b7864;
+}
+
+body.dark-mode .ui-badge,
+body.dark-mode .ui-tag {
+  border-color: #89a892;
+  color: #f0efe9;
+  background-color: #2f3a34;
+}
+
+.table-section {
+  grid-template-columns: 1fr;
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  background-color: #fcfaf5;
+}
+
+body.dark-mode .table-wrapper {
+  background-color: #232d27;
+}
+
+@media (max-width: 768px) {
+  .cards-grid,
+  .cards-grid-about {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .project-card .card-media img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .table-card th,
+  .table-card td {
+    min-width: 140px;
+    white-space: normal;
+  }
+}

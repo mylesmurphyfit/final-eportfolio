@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "title": "Prettify TypeScript",
+      "image": "http://localhost:3000/public/images/prettify-ts.png",
+      "imageAlt": "Prettify TypeScript project",
+      "desc": "Prettify TypeScript is a VS Code extension that I developed and maintain. The goal of the project is to make TypeScript types easier to read inside the editor. This project gave me experience with TypeScript tooling, extension development, and improving the developer experience for a real user base. It also reflects my interest in building practical tools that solve everyday problems for developers.",
+      "tools": ["TypeScript", "VS Code Extension API", "Open Source"],
+      "link": {
+        "url": "https://github.com/mylesmmurphy/prettify-ts",
+        "label": "Project repository"
+      }
+    },
+    {
+      "title": "GraphiQL Contributions",
+      "image": "http://localhost:3000/public/images/graphiql.png",
+      "imageAlt": "GraphiQL project",
+      "desc": "GraphiQL is a popular interface used for exploring GraphQL APIs. I contributed features and fixes to the project, including improvements that help users manage editor tabs more effectively. This project helped me practice working in a large open-source codebase, understanding existing patterns, and delivering changes that improve usability for many developers.",
+      "tools": ["React", "GraphQL", "Open Source"],
+      "link": {
+        "url": "https://github.com/graphql/graphiql",
+        "label": "Project repository"
+      }
+    },
+    {
+      "title": "Workday Extend Language Server Protocol",
+      "image": "http://localhost:3000/public/images/workday.png",
+      "imageAlt": "Workday project",
+      "desc": "This is a work in progress project focused on building a Workday Extend language server and a VS Code client to improve the developer experience for writing and validating Workday Extend code. The goal is to provide editor features such as diagnostics, navigation, and autocomplete so developers can work more efficiently inside VS Code.",
+      "tools": ["Language Server Protocol", "TypeScript", "VS Code"],
+      "link": {
+        "url": "https://workday.com",
+        "label": "Project details"
+      }
+    }
+  ]
+}

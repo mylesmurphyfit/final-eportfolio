@@ -1,0 +1,87 @@
+{
+  "education": [
+    {
+      "school": "Florida Institute of Technology",
+      "degree": "Master of Science",
+      "program": "Computer Information Systems",
+      "year": "Anticipated 2027",
+      "bullets": [
+        "Graduate studies focused on software systems and information management"
+      ]
+    },
+    {
+      "school": "St. Olaf College",
+      "degree": "Bachelor of Arts",
+      "program": "Computer Science and Japanese with a Linguistics concentration",
+      "year": "2020",
+      "bullets": [
+        "Combined technical and language studies with interdisciplinary research"
+      ]
+    }
+  ],
+  "workExperience": [
+    {
+      "company": "The Walt Disney Company",
+      "role": "Senior Software Engineer",
+      "dates": "2023 - Present",
+      "mainWork": "Internal HCM tools, ETL pipelines, AI workflows, and technical leadership",
+      "bullets": [
+        "Built and maintained internal HCM tools for business teams",
+        "Delivered ETL and AI-supported workflows for operational efficiency"
+      ]
+    },
+    {
+      "company": "Guaranteed Rate",
+      "role": "Software Engineer",
+      "dates": "2023",
+      "mainWork": "Event-driven systems, GraphQL APIs, and React feature work",
+      "bullets": [
+        "Developed event-driven backend services",
+        "Contributed frontend features and GraphQL API improvements"
+      ]
+    },
+    {
+      "company": "Smart Warehousing",
+      "role": "Software Engineer",
+      "dates": "2022 - 2023",
+      "mainWork": "AWS serverless APIs, warehouse data visualization, and architecture work",
+      "bullets": [
+        "Implemented AWS serverless APIs for warehouse operations",
+        "Improved data visualization and architecture decisions"
+      ]
+    },
+    {
+      "company": "Vivial",
+      "role": "Software Engineer",
+      "dates": "2021 - 2022",
+      "mainWork": "Node.js microservices, AWS, PostgreSQL, and automated testing",
+      "bullets": [
+        "Built microservices with Node.js and AWS",
+        "Expanded automated testing across critical workflows"
+      ]
+    },
+    {
+      "company": "Ecolab",
+      "role": "Software Engineer and Intern",
+      "dates": "2019 - 2021",
+      "mainWork": "Dynamics 365 customization, SQL, integrations, and CI/CD improvements",
+      "bullets": [
+        "Customized Dynamics 365 systems and integration points",
+        "Improved CI/CD processes and deployment reliability"
+      ]
+    }
+  ],
+  "skills": [
+    "JavaScript, TypeScript, Python, Java, C#, and C++",
+    "React, React Native, Angular, HTML, and CSS",
+    "Node.js, Express, REST APIs, GraphQL, and microservices",
+    "Postgres, MySQL, MongoDB, DynamoDB, and Redis",
+    "AWS, Azure, Docker, Git, and CI/CD"
+  ],
+  "extracurricularActivities": [
+    "Maintainer of the Prettify TypeScript VS Code extension",
+    "Contributor to the GraphiQL open-source project",
+    "Mentor to other engineers and active code reviewer",
+    "Graduate student in Computer Information Systems"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "paragraphs": [
+    "My name is Myles Murphy, and I am a software engineer with professional experience building full stack applications, cloud services, APIs, and internal tools that support real business needs. I currently work at The Walt Disney Company, where I help build and maintain human capital management tools, ETL integrations, and AI-supported workflows. My work often involves improving data access, connecting systems, and making software easier for teams to use and support.",
+    "Before joining Disney, I worked in roles that gave me experience with event-driven systems, REST and GraphQL APIs, serverless architecture, responsive frontend work, and testing. I have used JavaScript, TypeScript, Python, Angular, React, Node.js, SQL, and AWS across several professional projects. I also enjoy contributing to open source, including my Prettify TypeScript extension and contributions to GraphiQL.",
+    "I earned a Bachelor of Arts from St. Olaf College in Computer Science and Japanese, with a concentration in Linguistics, and I am currently pursuing a Master of Science in Computer Information Systems at Florida Institute of Technology."
+  ],
+  "headshot": "http://localhost:3000/public/profile.jpeg",
+  "links": [
+    {
+      "name": "GitHub Profile",
+      "url": "https://github.com/mylesmmurphy"
+    },
+    {
+      "name": "LinkedIn Profile",
+      "url": "https://linkedin.com/in/mylesmorganmurphy"
+    },
+    {
+      "name": "VS Code Marketplace Project",
+      "url": "https://marketplace.visualstudio.com/items?itemName=MylesMurphy.prettify-ts"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "skills": [
+    {
+      "section": "Programming Languages",
+      "items": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "Java",
+        "C#",
+        "C++"
+      ]
+    },
+    {
+      "section": "Frontend Skills",
+      "items": [
+        "HTML",
+        "CSS",
+        "React",
+        "React Native",
+        "Angular",
+        "Webpack"
+      ]
+    },
+    {
+      "section": "Backend Skills",
+      "items": [
+        "Node.js",
+        "Express",
+        "REST APIs",
+        "GraphQL APIs",
+        "Microservices",
+        "Event-driven architecture"
+      ]
+    },
+    {
+      "section": "Database and Cloud Skills",
+      "items": [
+        "Postgres, MySQL, MongoDB, DynamoDB, and Redis",
+        "AWS services such as Lambda, EC2, ECS, RDS, S3, IAM, and SQS",
+        "Azure experience",
+        "ETL pipelines and data integrations"
+      ]
+    },
+    {
+      "section": "DevOps and Testing",
+      "items": [
+        "GitHub, GitLab, and CI/CD pipelines",
+        "Docker and infrastructure as code",
+        "Unit, integration, and end-to-end testing",
+        "Jest and automated test coverage"
+      ]
+    },
+    {
+      "section": "Professional Strengths",
+      "items": [
+        "Writing technical design documents",
+        "Leading code reviews",
+        "Mentoring engineers",
+        "Working across the full software development life cycle"
+      ]
+    }
+  ]
+}

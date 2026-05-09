@@ -1,0 +1,67 @@
+label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b7a68b;
+  background-color: #fcfaf5;
+  color: #2f372d;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, serif;
+}
+
+.input-error {
+  border-color: #b54a4a;
+}
+
+.error-message {
+  min-height: 24px;
+  margin: 4px 0 0 0;
+  color: #b54a4a;
+}
+
+.form-message {
+  min-height: 24px;
+  margin: 12px 0 0 0;
+  font-weight: bold;
+}
+
+.success-message {
+  color: #2d6a38;
+}
+
+.form-error-message {
+  color: #b54a4a;
+}
+
+input[type="submit"] {
+  width: auto;
+  margin-top: 16px;
+  border: 1px solid #b89567;
+  background-color: #d7bc90;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #e6d0ac;
+}
+
+body.dark-mode input,
+body.dark-mode textarea {
+  border-color: #6d7a71;
+  background-color: #27322c;
+  color: #f0efe9;
+}
+
+body.dark-mode .success-message {
+  color: #99d6a5;
+}
+
+body.dark-mode .form-error-message {
+  color: #f09a9a;
+}
