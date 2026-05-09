@@ -44,6 +44,12 @@ npm run server
 npm run build --workspace=client
 ```
 
+**Testing**
+
+```bash
+npm test
+```
+
 ## Deployment
 
 Deployment is automated with [Vercel](https://vercel.com/). Pushing to the `main` branch triggers a production deploy. Configure project settings and environment variables in the Vercel dashboard to match your API URL, database connection, and any other secrets.
